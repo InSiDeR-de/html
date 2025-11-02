@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+  <book id="b001" type="guide">
+    <title>HTML5 Guide</title>
+    <author>Author A</author>
+    <year>2014</year>
+  </book>
+  <book id="b002" type="reference">
+    <title>CSS Techniques</title>
+    <author>Author B</author>
+    <year>2016</year>
+  </book>
+  <book id="b003" type="standard">
+    <title>Accessibility</title>
+    <author>Author C</author>
+    <year>2018</year>
+  </book>
+  <book id="b004" type="manual">
+    <title>Performance</title>
+    <author>Author D</author>
+    <year>2020</year>
+  </book>
+</library>

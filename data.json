@@ -1,0 +1,6 @@
+[
+  { "id": "b001", "title": "HTML5 Guide", "published": 2014 },
+  { "id": "b002", "title": "CSS Techniques", "available": true, "pages": 320 },
+  { "id": "b003", "title": "Accessibility", "tags": ["a11y","semantic"], "rating": 4.5 },
+  { "id": "b004", "title": "Performance", "metadata": {"sizeMB": 1.2}, "featured": false }
+]

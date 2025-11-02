@@ -1,0 +1,196 @@
+/* Basic reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.5;
+    padding: 20px;
+    color: #222;
+    background: #f9f9f9;
+}
+
+/* Top navigation - top right menu */
+.topnav {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.topnav a {
+    margin-left: 12px;
+    text-decoration: none;
+    color: #222;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+
+.topnav a.active {
+    background: #ddd;
+}
+
+.topnav a:hover {
+    background: #eee;
+}
+
+/* Centered main title */
+.center-title {
+    text-align: center;
+    margin: 6px 0 18px 0;
+}
+
+/* Intro paragraph full width, justified */
+.intro p {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+/* Hover color change for a specific link class */
+.hover-color:hover {
+    color: #d00;
+}
+
+/* Three columns responsive */
+.three-col {
+    display: flex;
+    gap: 20px;
+    margin-top: 16px;
+}
+
+.three-col article {
+    flex: 1;
+    background: #fff;
+    padding: 12px;
+    border-radius: 6px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.03) inset;
+}
+
+.three-col h2 {
+    margin-bottom: 8px;
+}
+
+/* Responsive breakpoint: stack columns on small screens */
+@media (max-width: 720px) {
+    .three-col {
+        flex-direction: column;
+    }
+}
+
+/* Table styling */
+.table-wrap table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    background: #fff;
+}
+
+.table-wrap th,
+.table-wrap td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}
+
+.table-wrap thead th {
+    background: #000;
+    color: #fff;
+}
+
+/* Image grid: same size images, 1cm gap, frame */
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1cm;
+    justify-content: center;
+    padding: 12px;
+}
+
+.image-grid img {
+    width: 200px;
+    height: 150px;
+    object-fit: contain;
+    border: 3px solid #444;
+    background: #fff;
+    display: block;
+}
+
+/* Form styling: blue background for edit fields */
+.example-form {
+    max-width: 480px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.example-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.example-form input[type="text"],
+.example-form input[type="email"],
+.example-form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    background: #d9ecff;
+    border: 1px solid #9ec9ff;
+    border-radius: 4px;
+}
+
+.example-form small {
+    display: block;
+    color: #666;
+    margin-top: 4px;
+}
+
+.form-buttons {
+    margin-top: 12px;
+    display: flex;
+    gap: 8px;
+}
+
+.btn-green {
+    background: #2e8b57;
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Author box and letter numbering */
+.author-box {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 12px;
+    border: 2px solid #333;
+    background: #fff;
+}
+
+.alpha-list {
+    list-style-type: upper-alpha;
+    padding-left: 22px;
+    margin-bottom: 12px;
+}
+.links {
+    list-style-type: disc;
+    padding-left: 22px;
+    margin-bottom: 12px;
+}
+
+.alpha-list li {
+    margin: 8px 0;
+}
+
+/* Footer */
+footer {
+    margin-top: 18px;
+    text-align: center;
+    color: #666;
+    font-size: 0.9em;
+}

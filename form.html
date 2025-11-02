@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="topnav">
+      <a href="index.html">Home</a>
+      <a href="data.html">Data</a>
+      <a href="images.html">Images</a>
+      <a href="form.html" class="active">Form</a>
+      <a href="author.html">Author</a>
+    </nav>
+    <h1 class="center-title">Contact / Submission Form</h1>
+  </header>
+
+  <main>
+    <form class="example-form" action="#" method="post">
+      <label for="name">Name (enter full name)</label>
+      <input id="name" name="name" type="text" placeholder="Your name" required>
+      <small>Provide your first and last name.</small>
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" placeholder="name@example.com" required>
+      <small>We will use this to contact you if needed.</small>
+
+      <label for="topic">Topic</label>
+      <select id="topic" name="topic">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="other">Other</option>
+      </select>
+      <small>Select the topic related to your message.</small>
+
+      <div class="form-buttons">
+        <button type="submit" class="btn-green">Save</button>
+        <button type="reset" class="btn-green">Cancel</button>
+      </div>
+    </form>
+  </main>
+</body>
+</html>
